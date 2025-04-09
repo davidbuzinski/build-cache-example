@@ -2,7 +2,7 @@
  * convec.c .  
  * example for passing complex data from MATLAB to C and back again
  *
- * convolves  two complex input vectors
+ * convolves  two complex input vectors 
  *
  * This is a MEX-file for MATLAB.
  * Copyright 1984-2017 The MathWorks, Inc.
