@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Info>
+    <Info name="Integration tests" type="FOLDERS">
+        <Info value="integTests"/>
+        <Info value="integTests/equivalence"/>
+        <Info value="integTests/toolboxPackaging"/>
+    </Info>
+    <Info name="Unit tests" type="FOLDERS">
+        <Info value="tests"/>
+        <Info value="tests/examples"/>
+    </Info>
+</Info>

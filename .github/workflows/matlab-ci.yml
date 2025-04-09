@@ -1,0 +1,23 @@
+name: MATLAB Build
+on: 
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  build:  
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: cache build outputs
+        uses: actions/cache@v4
+        with:
+          path: .buildtool
+          key: matlab-buildtool-cache
+          
+      - name: build mex files
+        uses: matlab-actions/run-build@v2
+        with:
+          tasks: mex
+          build-options: -buildCache
+ 
