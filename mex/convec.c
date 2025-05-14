@@ -1,4 +1,4 @@
-/*=========================================================
+/*========================================================= 
  * convec.c .  
  * example for passing complex data from MATLAB to C and back again
  *
